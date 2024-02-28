@@ -1,0 +1,8 @@
+README.md
+setup.py
+genericml.egg-info/PKG-INFO
+genericml.egg-info/SOURCES.txt
+genericml.egg-info/dependency_links.txt
+genericml.egg-info/requires.txt
+genericml.egg-info/top_level.txt
+src/__init__.py
