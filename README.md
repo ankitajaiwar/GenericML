@@ -12,10 +12,6 @@ The target variable to predict is:
 Dataset Source Link: [Students Performance in Exams]( https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
 
 
-### Deployment and Resources
-
-- **AWS Deployment Link**: [AWS Elastic Beanstalk Link](http://gemstonepriceutkarshgaikwad-env.eba-7zp3wapg.ap-south-1.elasticbeanstalk.com/)
-- **API Link**: [API Endpoint](http://gemstonepriceutkarshgaikwad-env.eba-7zp3wapg.ap-south-1.elasticbeanstalk.com/predictAPI)
 
 ## Approach
 
@@ -45,6 +41,31 @@ Develop a Flask web application with a user interface to predict diamond prices.
 - **artifacts/**: Saves pickle files for processing pipeline and trained model.
 - **notebooks/**: Contains Jupyter notebooks for EDA, model training, and interpretation.
 - **templates/**: Contains HTML templates for the Flask app.
+
+### Deployment and Resources
+
+-# Hosting Your Application on AWS Elastic Beanstalk
+
+To host your application on AWS Elastic Beanstalk, follow these steps:
+
+
+1. **Create an AWS Account**: If you don't have an AWS account, sign up for one at [aws.amazon.com](https://aws.amazon.com/).
+
+2. **Access the Elastic Beanstalk Console**: Log in to the AWS Management Console and navigate to the Elastic Beanstalk service.
+
+3. **Create a New Application**: Click on "Create a new application" and give your application a name.
+
+4. **Choose Your Platform**: Select the platform that your application is built on (e.g., Java, .NET, PHP, Node.js). Elastic Beanstalk supports various platforms.
+
+5. **Upload Your Application**: Upload your application code either directly from your local machine or from an S3 bucket.
+
+6. **Configure Your Environment**: Choose the environment type (e.g., web server environment, worker environment), select the instance type, configure capacity settings, set up load balancer settings, etc.
+
+7. **Configure Additional Options**: You can configure additional options such as security settings, environment variables, database configurations, etc.
+
+8. **Review and Launch**: Review all your configurations and settings, then click "Launch" to deploy your application.
+
+These steps provide a basic overview of how to host an application on AWS Elastic Beanstalk. 
 
 ## Usage
 
